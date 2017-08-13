@@ -15,5 +15,5 @@
 * UEditor/Markdown编辑器
 * font-wesome 字体/图标
 
-### Thank For Mtons.
+### Thanks For Mtons.
 
