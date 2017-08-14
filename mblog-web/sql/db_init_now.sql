@@ -47,7 +47,7 @@ CREATE TABLE `mto_users` (
 -- ----------------------------
 -- Records of mto_users
 -- ----------------------------
-INSERT INTO `mto_users` VALUES ('1', '2015-08-06 17:52:41', 'admin@mtons.com', '2015-08-19 21:06:55', null, '3TGCQF25BLHU9R7IQUITN0FCC5', '0', 'admin', '小豆丁', '/assets/images/ava/default.png', '2015-07-26 11:08:36', '0', '1', '0', '1', '0', '0', '0', '0', '0');
+INSERT INTO `mto_users` VALUES ('1', '2015-08-06 17:52:41', 'admin@mtons.com', '2015-08-19 21:06:55', null, '27UTJ4V67ICMDE9RN4SPEDLD8D', '0', 'admin', 'Darrick', '/assets/images/ava/default.png', '2015-07-26 11:08:36', '0', '1', '0', '1', '0', '0', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for mto_configs
