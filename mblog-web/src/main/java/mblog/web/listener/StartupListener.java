@@ -26,6 +26,7 @@ import org.springframework.web.context.ServletContextAware;
 import mblog.base.context.AppContext;
 import mblog.base.lang.Consts;
 import mblog.base.print.Printer;
+import mblog.base.utils.Buddha;
 import mblog.core.data.Config;
 import mblog.core.persist.service.ConfigService;
 import mblog.core.persist.service.GroupService;
@@ -78,6 +79,7 @@ public class StartupListener implements InitializingBean, ServletContextAware {
 	 * 
 	 */
 	private void loadConfig() {
+		Buddha.buddhaBless();
         Timer timer = new Timer("loadConfig", true);
         timer.schedule(new TimerTask() {
             @Override

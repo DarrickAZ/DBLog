@@ -35,7 +35,7 @@ public class AdminController {
         float memPercent = Math.round(freeMemory / totalMemory * 100) ;
         String os = System.getProperty("os.name");
         String javaVersion = System.getProperty("java.version");
-
+        
         model.addAttribute("freeMemory", freeMemory);
         model.addAttribute("totalMemory", totalMemory / 1024 / 1024);
         model.addAttribute("usedMemory", usedMemory / 1024 / 1024);
